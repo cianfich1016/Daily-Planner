@@ -1,7 +1,8 @@
-
+//Display current day at top in header marked by id currentDay.
 var now = moment().format('dddd, MMMM Do');
 $("#currentDay").text(now);
 
+//Declaring variables using jQuery from ids in index.html.
 var textArea = $('textarea')
 var text9El = $("#input9");
 var text10El = $("#input10");
@@ -23,12 +24,13 @@ var button15 = $("#button15");
 var button16 = $("#button16");
 var button17 = $("#button17");
 
+//Created 2 arrays. One to label each text element representing the input boxes and the other with the actual hour value of each row.
 var allElements = [text9El, text10El, text11El, text12El, text13El, text14El, text15El, text16El, text17El];
 
 var allTimes = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
+//Current hour and parsing the string to an integer to match value of integers in allTimes.
 var currentHour = parseInt(moment().format('H'));
-console.log(currentHour)
 
 textArea.each(function(i){
      if(currentHour < allTimes[i]){
@@ -44,6 +46,7 @@ textArea.each(function(i){
     }
 )
 
+//On the click of each button in each row, this saves the input to local storage.
 button9.on("click", function(){
     var tasks9 = text9El.val();
     localStorage.setItem("tasks9", tasks9);
@@ -97,6 +100,7 @@ button17.on("click", function(){
 
 });
 
+//Get each item stored. Input will remain on refresh.
 text9El.val(localStorage.getItem("tasks9"));
 text10El.val(localStorage.getItem("tasks10"));
 text11El.val(localStorage.getItem("tasks11"));

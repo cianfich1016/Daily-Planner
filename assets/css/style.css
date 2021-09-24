@@ -4,6 +4,7 @@ body {
   line-height: 1;
 }
 
+/*Stylizes text box input.*/
 textarea {
   background: transparent;
   border: none;
@@ -13,6 +14,7 @@ textarea {
   padding: 10px;
 }
 
+/*Stylizes jumbotron form Bootstrap.*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -34,6 +36,7 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  margin-bottom: 2px;
 }
 
 .hour {
@@ -41,7 +44,7 @@ textarea {
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+/*Class styles that change color based on hour.*/
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -57,6 +60,7 @@ textarea {
   color: white;
 }
 
+/*Stylizes button uploaded from Font Awesome.*/
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -75,4 +79,7 @@ textarea {
   text-align: right;
 }
 
-
+/*Changed height of input box to match height of rest of row.*/
+textarea {
+  height: 80px;
+}
