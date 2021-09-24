@@ -15,6 +15,7 @@ Click the following link to view an animation of the webpage. https://watch.scre
 
 # Deployment Access
 
+https://cianfich1016.github.io/Daily-Planner/
 # License
 
 Library can be found at the following link.
