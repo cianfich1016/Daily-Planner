@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Links to all resources: Bootstrap, Font Awesome, and Google Fonts-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -28,13 +29,18 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <!--Used Bootstrap to create layout using columns.-->
       <div class="container">
+        <!--Labels first row-->
         <div class="row">
+          <!--Identifies first column and size with another id class added from CSS-->
           <div class="col-2 hour" >
             <p>9AM</p>
           </div>
+          <!--Labels the text area for input with an added id used in .js file to save text input-->
           <textarea class="col-8" id="input9"> 
           </textarea>
+          <!--Creates button in third column.-->
           <div class="col-2 row">
             <button class="fas fa-save saveBtn" id="button9"></button>
           </div>
@@ -46,7 +52,7 @@
           <textarea class="col-8" id="input10"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button10"></button>
           </div>
         </div>
         <div class="row">
@@ -56,7 +62,7 @@
           <textarea class="col-8" id="input11"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button11"></button>
           </div>
         </div>
         <div class="row">
@@ -66,7 +72,7 @@
           <textarea class="col-8" id="input12"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button12"></button>
           </div>
         </div>
         <div class="row">
@@ -76,7 +82,7 @@
           <textarea class="col-8" id="input13"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button13"></button>
           </div>
         </div>
         <div class="row">
@@ -86,7 +92,7 @@
           <textarea class="col-8" id="input14"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button14"></button>
           </div>
         </div>
         <div class="row">
@@ -96,7 +102,7 @@
           <textarea class="col-8" id="input15"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button15"></button>
           </div>
         </div>
         <div class="row">
@@ -106,7 +112,7 @@
           <textarea class="col-8" id="input16"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button16"></button>
           </div>
         </div>
         <div class="row">
@@ -116,11 +122,11 @@
           <textarea class="col-8" id="input17"> 
           </textarea>
           <div class="col-2 row">
-            <button class="fas fa-save saveBtn"></button>
+            <button class="fas fa-save saveBtn" id="button17"></button>
           </div>
         </div>
     </div>
-
+    <!--Links jQuery and moment.js for time as well as the created JavaScript file.-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>

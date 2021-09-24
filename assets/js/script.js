@@ -46,54 +46,63 @@ textArea.each(function(i){
 
 button9.on("click", function(){
     var tasks9 = text9El.val();
-    localStorage.setItem("tasks", tasks9);
-
+    localStorage.setItem("tasks9", tasks9);
 });
 
 button10.on("click", function(){
     var tasks10 = text10El.val();
-    localStorage.setItem("tasks", tasks10);
+    localStorage.setItem("tasks10", tasks10);
 
 });
 
 button11.on("click", function(){
     var tasks11 = text11El.val();
-    localStorage.setItem("tasks", tasks11);
+    localStorage.setItem("tasks11", tasks11);
 
 });
 
 button12.on("click", function(){
     var tasks12 = text12El.val();
-    localStorage.setItem("tasks", tasks12);
+    localStorage.setItem("tasks12", tasks12);
 
 });
 
 button13.on("click", function(){
     var tasks13 = text13El.val();
-    localStorage.setItem("tasks", tasks13);
-
+    localStorage.setItem("tasks13", tasks13);
+    
 });
 
 button14.on("click", function(){
     var tasks14 = text14El.val();
-    localStorage.setItem("tasks", tasks14);
+    localStorage.setItem("tasks14", tasks14);
 
 });
 
 button15.on("click", function(){
     var tasks15 = text15El.val();
-    localStorage.setItem("tasks", tasks15);
+    localStorage.setItem("tasks15", tasks15);
 
 });
 
 button16.on("click", function(){
     var tasks16 = text16El.val();
-    localStorage.setItem("tasks", tasks16);
+    localStorage.setItem("tasks16", tasks16);
 
 });
 
 button17.on("click", function(){
     var tasks17 = text17El.val();
-    localStorage.setItem("tasks", tasks17);
+    localStorage.setItem("tasks17", tasks17);
 
 });
+
+text9El.val(localStorage.getItem("tasks9"));
+text10El.val(localStorage.getItem("tasks10"));
+text11El.val(localStorage.getItem("tasks11"));
+text12El.val(localStorage.getItem("tasks12"));
+text13El.val(localStorage.getItem("tasks13"));
+text14El.val(localStorage.getItem("tasks14"));
+text15El.val(localStorage.getItem("tasks15"));
+text16El.val(localStorage.getItem("tasks16"));
+text17El.val(localStorage.getItem("tasks17"));
