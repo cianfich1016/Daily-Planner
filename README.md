@@ -10,6 +10,8 @@ The planner updates daily with the current day, month, and date. The user sees t
 
 ![This image shows a picture of the daily planner with date, month, and day at the top. The time blocks are below showing various colors based on past, present and future time.](assets/images/Daily-Planner.png)
 
+![Example of text in each time block saved.](assets/images/Daily-Planner2.png)
+
 Click the following link to view an animation of the webpage. https://watch.screencastify.com/v/FilIbr5GJbYdtOjNMWoE
 
 
