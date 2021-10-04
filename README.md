@@ -23,3 +23,5 @@ Library can be found at the following link.
 https://github.com/cianfich1016/Daily-Planner
 
 Initial starter code borrowed from Trilogy Education services.
+
+This project is licensed under the terms of the MIT license.
